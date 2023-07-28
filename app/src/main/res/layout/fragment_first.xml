@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/purple_light">
+
+        <include layout="@layout/layout_toolbar" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="137dp"
+            android:layout_height="29dp"
+            android:layout_marginBottom="24dp"
+            android:text="@string/hello_blank_fragment"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@+id/button2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.689" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="105dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="156dp"
+            android:text="Increase counter"
+            style="@style/CustomButtonStyle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
