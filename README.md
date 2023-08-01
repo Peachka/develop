@@ -1,2 +1,2 @@
-# develop
-No any classes only settings.gradle and build.gradle
+# Level 3
+Junior task is realized, with the addition of animations, asynchronous methods, and intents
